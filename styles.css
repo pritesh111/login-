@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background-size: cover;
+
+}
+
+.login-form{
+  text-align: center;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: black;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
+
+
+.login-form h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.login-form p{
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.login-form input{
+  font-size: 16px;
+  width: 240px;
+  padding: 15px 10px;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.login-form button{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 100%;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+
+.login-form button:hover{
+  color: white;
+  background-color: black;
+  transition: background 0.5s;
+}
+
+
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.or{
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.col-3 img:hover{
+  transform: scale(1.25);
+}
+
+.col-3 img{
+  padding-bottom: 20px;
+}
+
+.title{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+}
+
+
+.login-form input{
+  width: 100%;
+
+  border-bottom: 1px 1px solid tomato;
+}
+
+.welcome{
+  text-align: center;
+  padding-top: 100px;
+}
+.welcome:hover{
+  color: tomato;
+  transform: scale(1.5);
+  transition:  1.5s;
+}
